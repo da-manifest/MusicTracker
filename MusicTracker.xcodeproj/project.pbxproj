@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843AE72920C0474F00CD86A8 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE72820C0474F00CD86A8 /* Transition.swift */; };
+		843AE72C20C050D200CD86A8 /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE72B20C050D200CD86A8 /* PushTransition.swift */; };
+		843AE72E20C052F000CD86A8 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE72D20C052F000CD86A8 /* Animator.swift */; };
+		843AE73020C0570900CD86A8 /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE72F20C0570900CD86A8 /* ModalTransition.swift */; };
+		843AE73220C059AA00CD86A8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE73120C059AA00CD86A8 /* Router.swift */; };
+		843AE73520C067AC00CD86A8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE73420C067AC00CD86A8 /* HomeViewController.swift */; };
+		843AE73720C067B700CD86A8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE73620C067B700CD86A8 /* HomeViewModel.swift */; };
+		843AE73920C067C600CD86A8 /* HomeModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE73820C067C600CD86A8 /* HomeModuleBuilder.swift */; };
+		843AE73B20C067D900CD86A8 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE73A20C067D900CD86A8 /* HomeRouter.swift */; };
+		843AE73E20C06A5800CD86A8 /* DummyRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE73D20C06A5800CD86A8 /* DummyRoute.swift */; };
 		845372C720BEFF2200F47DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845372C620BEFF2200F47DA5 /* AppDelegate.swift */; };
-		845372C920BEFF2200F47DA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845372C820BEFF2200F47DA5 /* ViewController.swift */; };
-		845372CC20BEFF2200F47DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845372CA20BEFF2200F47DA5 /* Main.storyboard */; };
 		845372CF20BEFF2200F47DA5 /* MusicTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845372CD20BEFF2200F47DA5 /* MusicTracker.xcdatamodeld */; };
 		845372D120BEFF2400F47DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845372D020BEFF2400F47DA5 /* Assets.xcassets */; };
 		845372D420BEFF2400F47DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845372D220BEFF2400F47DA5 /* LaunchScreen.storyboard */; };
@@ -35,10 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		843AE72820C0474F00CD86A8 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		843AE72B20C050D200CD86A8 /* PushTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
+		843AE72D20C052F000CD86A8 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		843AE72F20C0570900CD86A8 /* ModalTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
+		843AE73120C059AA00CD86A8 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		843AE73420C067AC00CD86A8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		843AE73620C067B700CD86A8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		843AE73820C067C600CD86A8 /* HomeModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleBuilder.swift; sourceTree = "<group>"; };
+		843AE73A20C067D900CD86A8 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		843AE73D20C06A5800CD86A8 /* DummyRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyRoute.swift; sourceTree = "<group>"; };
 		845372C320BEFF2200F47DA5 /* MusicTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845372C620BEFF2200F47DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		845372C820BEFF2200F47DA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		845372CB20BEFF2200F47DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845372CE20BEFF2200F47DA5 /* MusicTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicTracker.xcdatamodel; sourceTree = "<group>"; };
 		845372D020BEFF2400F47DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845372D320BEFF2400F47DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +92,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		843AE72620C0421B00CD86A8 /* Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				845372C620BEFF2200F47DA5 /* AppDelegate.swift */,
+				845372D220BEFF2400F47DA5 /* LaunchScreen.storyboard */,
+				845372D020BEFF2400F47DA5 /* Assets.xcassets */,
+			);
+			path = Stuff;
+			sourceTree = "<group>";
+		};
+		843AE72720C0473F00CD86A8 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				843AE73C20C06A4B00CD86A8 /* Routes */,
+				843AE72A20C050BD00CD86A8 /* Transitions */,
+				843AE72D20C052F000CD86A8 /* Animator.swift */,
+				843AE73120C059AA00CD86A8 /* Router.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		843AE72A20C050BD00CD86A8 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				843AE72820C0474F00CD86A8 /* Transition.swift */,
+				843AE72B20C050D200CD86A8 /* PushTransition.swift */,
+				843AE72F20C0570900CD86A8 /* ModalTransition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		843AE73320C0676000CD86A8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				843AE73420C067AC00CD86A8 /* HomeViewController.swift */,
+				843AE73620C067B700CD86A8 /* HomeViewModel.swift */,
+				843AE73820C067C600CD86A8 /* HomeModuleBuilder.swift */,
+				843AE73A20C067D900CD86A8 /* HomeRouter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		843AE73C20C06A4B00CD86A8 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				843AE73D20C06A5800CD86A8 /* DummyRoute.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
 		845372BA20BEFF2200F47DA5 = {
 			isa = PBXGroup;
 			children = (
@@ -99,11 +165,9 @@
 		845372C520BEFF2200F47DA5 /* MusicTracker */ = {
 			isa = PBXGroup;
 			children = (
-				845372C620BEFF2200F47DA5 /* AppDelegate.swift */,
-				845372C820BEFF2200F47DA5 /* ViewController.swift */,
-				845372CA20BEFF2200F47DA5 /* Main.storyboard */,
-				845372D020BEFF2400F47DA5 /* Assets.xcassets */,
-				845372D220BEFF2400F47DA5 /* LaunchScreen.storyboard */,
+				843AE73320C0676000CD86A8 /* Home */,
+				843AE72720C0473F00CD86A8 /* Routing */,
+				843AE72620C0421B00CD86A8 /* Stuff */,
 				845372D520BEFF2400F47DA5 /* Info.plist */,
 				845372CD20BEFF2200F47DA5 /* MusicTracker.xcdatamodeld */,
 			);
@@ -234,7 +298,6 @@
 			files = (
 				845372D420BEFF2400F47DA5 /* LaunchScreen.storyboard in Resources */,
 				845372D120BEFF2400F47DA5 /* Assets.xcassets in Resources */,
-				845372CC20BEFF2200F47DA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +322,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845372C920BEFF2200F47DA5 /* ViewController.swift in Sources */,
+				843AE73920C067C600CD86A8 /* HomeModuleBuilder.swift in Sources */,
+				843AE73020C0570900CD86A8 /* ModalTransition.swift in Sources */,
+				843AE73720C067B700CD86A8 /* HomeViewModel.swift in Sources */,
+				843AE72E20C052F000CD86A8 /* Animator.swift in Sources */,
+				843AE72920C0474F00CD86A8 /* Transition.swift in Sources */,
+				843AE73520C067AC00CD86A8 /* HomeViewController.swift in Sources */,
+				843AE73220C059AA00CD86A8 /* Router.swift in Sources */,
 				845372CF20BEFF2200F47DA5 /* MusicTracker.xcdatamodeld in Sources */,
+				843AE72C20C050D200CD86A8 /* PushTransition.swift in Sources */,
 				845372C720BEFF2200F47DA5 /* AppDelegate.swift in Sources */,
+				843AE73E20C06A5800CD86A8 /* DummyRoute.swift in Sources */,
+				843AE73B20C067D900CD86A8 /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +369,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		845372CA20BEFF2200F47DA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				845372CB20BEFF2200F47DA5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		845372D220BEFF2400F47DA5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
